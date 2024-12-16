@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# Logs
+logs
+*.log
+=======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -25,10 +30,44 @@
 *.pem
 
 # debug
+>>>>>>> responsive-design
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# production
+.next
+.swc
+_static
+out
+dist
+build
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# misc
+.DS_Store
+.vercel
+.netlify
+.vscode
+.eslintcache
+.unimportedrc.json
+tsconfig.tsbuildinfo
+=======
 # env files (can opt-in for committing if needed)
 .env*
 
@@ -38,3 +77,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+>>>>>>> responsive-design

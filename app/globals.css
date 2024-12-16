@@ -16,6 +16,33 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background-color: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes bgMove {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+/* Custom Tailwind class for background animation */
+.animate-bgMove {
+  background-image: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+  background-size: 200% 200%;
+  animation: bgMove 20s infinite linear;
+}
+.animates-bgMove {
+  background-size: 100% 100%; /* Ensure room for background to move */
+  animation: bgMove 10s infinite linear; /* Adjust duration for slower or faster movement */
+}
+.animatee-bgMove {
+  background-size: 100% 100%; /* Ensure room for background to move */
+  animation: bgMove 15s infinite linear; /* Adjust duration for slower or faster movement */
 }
