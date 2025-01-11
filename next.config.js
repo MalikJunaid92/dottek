@@ -1,7 +1,4 @@
 // next.config.js
-const nextConfig = {
-    distDir: "dist",
-  };
-  
-  module.exports = nextConfig;
-  
+const nextConfig = {};
+
+module.exports = nextConfig;
